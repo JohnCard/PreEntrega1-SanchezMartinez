@@ -1,0 +1,72 @@
+/* Default settings */
+
+:root{
+    --twenty-five-px: 25px;
+    --ten-px: 25px;
+    --twenty-px: 20px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+/* Ticket selectors */
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+h1{
+    margin: 2% 0;
+}
+
+h2,h3{
+    margin: 1% 0;
+}
+
+main, footer{
+    margin: 1% 1%;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    box-shadow: var(--ten-px) var(--ten-px) var(--ten-px);
+}
+
+input, textarea{
+    background-color: gray;
+    color: white;
+    padding: 5px;
+}
+
+form{
+    margin: 0 auto;
+
+    background-color: rgba(18, 130, 196, 0.77);
+    color: crimson;
+    padding: var(--twenty-px);
+    width: 60%;
+}
+
+
+.article{
+    margin: 2% 0;
+}
+
+
+.article-container p{
+    width: 50%;
+}
