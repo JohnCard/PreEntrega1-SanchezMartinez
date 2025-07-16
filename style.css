@@ -61,12 +61,47 @@ form{
     width: 60%;
 }
 
-
-.article{
-    margin: 2% 0;
+footer{
+    margin: 0 8%;
 }
 
+header nav{
+    margin: 0 35%;
+}
+
+form label{
+    margin: 2%;
+    display: block;
+}
+
+footer nav{
+    margin: 0 1%;
+}
+
+.presentation, .follow-section{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.technologies-section div{
+    margin: 2% 35%;
+    text-align: center;
+}
+
+.nav-header li, .technologies-section div ul li, .gallery li, .article-container p, footer nav{
+    display: inline-block;
+}
+
+.gallery{
+    margin: 0 5%;
+}
+
+.article{
+    margin: 2% 15%;
+}
 
 .article-container p{
-    width: 50%;
+    margin: 0 6%;
+    width: 45%;
 }
