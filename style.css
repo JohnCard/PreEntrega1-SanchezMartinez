@@ -12,9 +12,9 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
+    background-color: #1B3C53;
+    color: #F9F3EF;
 }
-
-/* Ticket selectors */
 
 ul{
     list-style: none;
@@ -25,72 +25,75 @@ a{
 }
 
 h1,h2,h3{
-    text-align: center;
-}
-
-h1{
     margin: 2% 0;
 }
 
-h2,h3{
-    margin: 1% 0;
-}
-
-main, footer{
+main{
     margin: 1% 1%;
 }
 
 img{
     width: 300px;
     height: 200px;
-    box-shadow: var(--ten-px) var(--ten-px) var(--ten-px);
+    padding: 20px;
+    margin: 4%;
+    background-color: #D2C1B6;
+}
+
+img:hover{
+    cursor: pointer;
 }
 
 input, textarea{
-    background-color: gray;
-    color: white;
+    background-color: #456882;
     padding: 5px;
+    color: #1B3C53;
+}
+
+footer, header, .technologies-section, h1, h2, h3{
+    text-align: center;
 }
 
 form{
-    margin: 0 auto;
-
-    background-color: rgba(18, 130, 196, 0.77);
-    color: crimson;
+    background-color: #D2C1B6;
     padding: var(--twenty-px);
-    width: 60%;
 }
 
 footer{
-    margin: 0 8%;
+    margin-bottom: 2%;
 }
 
-header nav{
-    margin: 0 35%;
+hr{
+    margin: 3% 0;
 }
 
 form label{
-    margin: 2%;
     display: block;
+    width: 25%;
+    margin: 2% auto;
+    padding: 15px;
 }
 
-footer nav{
-    margin: 0 1%;
+main p{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.technologies-section div{
+    margin-top: 2%;
 }
 
 .presentation, .follow-section{
     width: 75%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.technologies-section div{
-    margin: 2% 35%;
-    text-align: center;
+    margin: 2% auto;
 }
 
 .nav-header li, .technologies-section div ul li, .gallery li, .article-container p, footer nav{
     display: inline-block;
+}
+
+.nav-header li{
+    margin: 0 2%;
 }
 
 .gallery{
@@ -98,10 +101,15 @@ footer nav{
 }
 
 .article{
-    margin: 2% 15%;
+    width: 70%;
+    margin: 4% auto;
 }
 
 .article-container p{
     margin: 0 6%;
     width: 45%;
+}
+
+.technologies-section div ul li{
+    margin-right: 2%;
 }
